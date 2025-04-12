@@ -32,7 +32,7 @@
   (rime-show-candidate 'posframe)
   (rime-posframe-properties
    (list :background-color "#333333"
-         :foreground-color "#dcdccc"
+         ;; :foreground-color "#dcdccc"
          :font "LXGW WenKai Mono-18"
          :internal-border-color "Purple"
          :internal-border-width 1))

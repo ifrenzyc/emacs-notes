@@ -31,7 +31,7 @@
   ;;            treemacs-fringe-indicator-mode
   ;;            treemacs-git-mode)
   :custom-face
-  (treemacs-window-background-face ((t (:background "#efe9dd" :height 160))))
+  (treemacs-window-background-face ((t (:background "#fffff" :height 160))))
   ;; (treemacs-window-background-face ((t (:backgroupd "#1e1e1e" :height 160))))
   :custom
   (treemacs-collapse-dirs                 (if (treemacs--find-python3) 3 0))
@@ -65,7 +65,7 @@
   (treemacs-space-between-root-nodes      t)
   (treemacs-tag-follow-cleanup            t)
   (treemacs-tag-follow-delay              1.5)
-  (treemacs-width                         35)
+  (treemacs-width                         55)
   :hook
   (treemacs-mode . (lambda ()
                      (setq-local line-spacing 0.9)

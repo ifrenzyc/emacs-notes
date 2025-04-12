@@ -19,6 +19,7 @@
 (defvar user/cjk-font "LXGW WenKai Mono GB"
   "Default font for CJK characters.")
 
+;; Maple Mono Normal
 (defvar user/latin-font "JetBrains Mono"
   "Default font for Latin characters.")
 

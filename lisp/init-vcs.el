@@ -30,8 +30,8 @@
   (("C-x g" . magit-status)
    ("C-x G" . magit-log-buffer-file))
   :hook
-  (magit-mode . (lambda ()
-                  (selected-minor-mode -1)))
+  ;; (magit-mode . (lambda ()
+  ;;                 (selected-minor-mode -1)))
   (magit-log-edit-mode . (lambda ()
                            (set-fill-column 89)
                            (auto-fill-mode 1)))
