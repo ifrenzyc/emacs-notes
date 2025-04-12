@@ -29,6 +29,7 @@
                   (interactive)
                   (org-capture nil "d")))
    ([f5]      . yc/copy-idlink-to-clipboard)
+   ([f6]      . yc/org-insert-clipboard-image)
    ;; ([f7]      . org-redisplay-inline-images)
    ("M-s M-R" . yc/counsel-rg-in-itsycnotes))
   (:map org-mode-map
