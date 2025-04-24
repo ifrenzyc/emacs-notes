@@ -24,7 +24,7 @@
   (:map markdown-mode-map
         ([f12] . markdown-live-preview-mode))
   :hook
-  ((markdown-mode . lsp)
+  (;; (markdown-mode . lsp)
    (markdown-mode . (lambda ()
                       (text-scale-increase 1)
                       (setq-local line-spacing 0.5)
