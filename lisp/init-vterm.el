@@ -52,7 +52,9 @@
                    (setq-local hs-minor-mode nil)
                    (setq-local origami-mode nil)
                    (setq-local vimish-fold-mode nil)
-                   (setq-local buffer-face-mode-face '((:family "Cascadia Code" :height 130)))
+                   ;; Maple Mono Normal
+                   ;; Cascadia Code
+                   (setq-local buffer-face-mode-face '((:family "Maple Mono Normal" :height 130)))
                    (buffer-face-mode t)))
   :custom
   ((vterm-buffer-name-string "*vterm %s*")
